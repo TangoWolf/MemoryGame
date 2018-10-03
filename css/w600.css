@@ -1,0 +1,67 @@
+h1 {
+  font-size: 30px;
+  margin-top: 12px;
+  margin-bottom: 24px;
+}
+
+header {
+  max-width: 500px;
+  max-height: 24px;
+  margin: 0 auto 12px auto;
+}
+
+.star {
+  font-size: 18px;
+}
+
+.grid {
+  grid-template-columns: 120px 120px 120px 120px;
+  grid-gap: 18px;
+  max-width: 540px;
+  padding: 21px;
+}
+
+.grid-item {
+  height: 120px;
+  width: 120px;
+}
+
+.grid-item p {
+  font-size: 72px;
+  width: 120px;
+  height: 120px;
+}
+
+#count {
+  margin-left: 6px;
+  font-size: 18px;
+}
+
+#timer {
+  font-size: 18px;
+}
+
+#reset {
+  font-size: 18px;
+}
+
+#modal {
+  background-color: white;
+  text-align: center;
+  font-size: 24px;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 60px;
+  right: calc((100% - 444px) / 2);
+  left: calc((100% - 444px) / 2);
+  height: 300px;
+  width: 444px;
+}
+
+#resetButton {
+  font-size: 18px;
+  text-align: center;
+  height: 36px;
+  width: 96px;
+}

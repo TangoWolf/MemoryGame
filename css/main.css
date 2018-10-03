@@ -1,0 +1,90 @@
+h1 {
+  text-align: center;
+  font-size: 5vw;
+  margin-top: 2vw;
+  margin-bottom: 4vw;
+}
+
+header {
+  display: flex;
+  background-color: white;
+  max-width: 90%;
+  max-height: 4vw;
+  margin: 0 auto 2vw auto;
+}
+
+.star {
+  font-size: 3vw;
+}
+
+.grid {
+  display: grid;
+  background: repeating-radial-gradient(red, purple 30%);
+  box-shadow: 2vw 2vw 3vw grey;
+  grid-template-columns: 20vw 20vw 20vw 20vw;
+  grid-gap: 3vw;
+  max-width: 95vw;
+  padding: 3.5vw;
+  margin: 0 auto 0 auto;
+  border-radius: 5px;
+}
+
+.grid-item {
+  background-color: green;
+  border-radius: 5px;
+  height: 20vw;
+  width: 20vw;
+  cursor: pointer;
+}
+
+.grid-item p {
+  font-size: 12vw;
+  text-align: center;
+  width: 20vw;
+  height: 20vw;
+  margin: 0;
+  display: none;
+}
+
+.modal p {
+  margin-bottom: 0;
+}
+
+#count {
+  margin-left: 1vw;
+  font-size: 3vw;
+}
+
+#timer {
+  float: right;
+  margin-left:auto;
+  font-size: 3vw;
+}
+
+#reset {
+  float: right;
+  margin-left: auto;
+  font-size: 3vw;
+  cursor: pointer;
+}
+
+#modal {
+  background-color: white;
+  text-align: center;
+  font-size: 4vw;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 10vw;
+  right: 13vw;
+  left: 13vw;
+  height: 50vw;
+  width: 74vw;
+}
+
+#resetButton {
+  font-size: 3vw;
+  text-align: center;
+  height: 6vw;
+  width: 16vw;
+}
